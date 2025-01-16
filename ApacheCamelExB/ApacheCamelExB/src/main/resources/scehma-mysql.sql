@@ -1,0 +1,8 @@
+CREATE DATABASE IF NOT EXISTS camel;
+
+USE camel;
+
+CREATE TABLE employee(
+emp_id VARCHAR(10) PRIMARY KEY,
+emp_name VARCHAR(100) NOT NULL
+);
